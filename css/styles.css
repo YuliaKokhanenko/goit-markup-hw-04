@@ -177,16 +177,15 @@ body{
    color: var(--accent-color);
 }
 .icon-mailto{
-    content: "";
+    /*content: "";*/
     width: 16px;
     height: 12px;
     fill:var(--text-color);
     margin-right: 10px;
     cursor: pointer;
-   
 }
 .icon-smartphone{
-    content: "";
+    /*content: "";*/
     width: 10px;
     height: 16px;
 }
