@@ -176,15 +176,16 @@ body{
 .contact-link:focus {
    color: var(--accent-color);
 }
-.icon-mailto{
+.contact-item-mailto{
     /*content: "";*/
     width: 16px;
     height: 12px;
     fill:var(--text-color);
     margin-right: 10px;
     cursor: pointer;
+
 }
-.icon-smartphone{
+.contact-item-phone{
     /*content: "";*/
     width: 10px;
     height: 16px;
@@ -198,7 +199,7 @@ body{
     height: 600px;
     left: 0px;
     top: 80px;
-   /* background: rgba(47, 48, 58, 0.4);  */ 
+   background: #C4C4C4;
     /*background-image: url(../images/icons/imgheader.jpg);*/
     background-repeat: no-repeat;
     /*background-position: center;*/
@@ -412,6 +413,11 @@ padding-bottom: 47px;
 
 .team-img-list-content{
     padding: 30px;
+}
+
+.social-list-icon{
+    width: 20px;
+    height: 20px;
 }
    /*------------End Hero----------------*/
   
