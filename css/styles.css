@@ -158,6 +158,9 @@ body{
    line-height: 1.14;
    letter-spacing: 0.02em;
    color: var(--text-color);
+   display: flex;
+   align-items: center;
+   margin-left: 40px;
 }
 
 .contact-link{
@@ -186,10 +189,11 @@ body{
 }
 
 .contact-link-phone{
-    /*display: inline-block;*/
-    width: 16px;
-    height: 12px;
+    width: 10px;
+    height: 16px;
     fill: currentcolor;
+    cursor: pointer;
+    margin-right: 10px;
 
 
     
@@ -331,7 +335,6 @@ padding-bottom: 47px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 270px;
     height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -421,28 +424,50 @@ padding-bottom: 47px;
 .team-img-list-content{
     padding: 30px;
 }
-
+.social-list{
+    display: flex;
+    justify-content: space-between;
+}
 .social-list-icon{
     width: 20px;
     height: 20px;
+    fill: #afb1b8;
+}
+.social-list-link{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+background: transparent;
+border-radius: 50%;
 }
    /*------------End Hero----------------*/
   /*-------------Постоянные клиенты---------------*/
+ .client-section{
+     background-color: var(--text-decoration-color);
+ }
+ 
   .client-title{
-       font-family:inherit;
+font-family:inherit;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--secondary-color);
 padding-bottom: 50px;
   }
 
   .client-logo-item{
 width: 106px;
-height:60px;
+height: 60px;
+}
+
+  .client-list{
+      display: flex;
   }
+
   .client-logo{
       display: flex;
       justify-content: center;
@@ -454,7 +479,7 @@ height:60px;
     fill: #afb1b8;
 }
 
-  .client-list:not(:last child){
+  .client-item:not(:last child){
       margin-right: 30px;
   }
    /*-----------------Footer---------*/
@@ -517,6 +542,38 @@ height:60px;
 .address-contact-link:hover,
 .address-contact-link:focus{
     color: var(--accent-color);
+}
+
+.footer-title{
+margin-bottom: 20px;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color:var(--text-decoration-color);
+text-transform: uppercase;
+}
+
+.footer-social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-icon{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+margin-right: 10px;
+}
+
+.footer-social-item-icon{
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
 }
    /*==================Footer=================*/
    
