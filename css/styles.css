@@ -60,10 +60,10 @@ body{
    /*=====================Header===================================*/
  
    .header{
-       border-bottom: 1px solid var(--hero-button-color);
-        background: var(--text-decoration-color);
-        padding-top: 24px;
-       padding-bottom: 25px;
+    border-bottom: 1px solid var(--hero-button-color);
+    background: var(--text-decoration-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
     }
    
    .header-container{
@@ -176,19 +176,24 @@ body{
 .contact-link:focus {
    color: var(--accent-color);
 }
-.contact-item-mailto{
-    /*content: "";*/
+.contact-link-envelope{
+    display: inline-block;
     width: 16px;
     height: 12px;
     fill:var(--text-color);
     margin-right: 10px;
     cursor: pointer;
-
 }
-.contact-item-phone{
-    /*content: "";*/
-    width: 10px;
-    height: 16px;
+
+.contact-link-phone{
+    /*display: inline-block;*/
+    width: 16px;
+    height: 12px;
+    fill: currentcolor;
+
+
+    
+
 }
    /*====================The end header======================*/
    
@@ -197,13 +202,12 @@ body{
 .overlay{
     max-width: 1600px;
     height: 600px;
-    left: 0px;
-    top: 80px;
+   /* left: 0px;
+    top: 80px;*/
    background: #C4C4C4;
     /*background-image: url(../images/icons/imgheader.jpg);*/
     background-repeat: no-repeat;
     /*background-position: center;*/
-   
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
     rgba(47, 48, 58, 0.4)),
     url(../images/icons/imgheader.jpg);
@@ -216,14 +220,13 @@ body{
     padding-top: 200px;
     padding-bottom: 200px;
     background-color:var(--hero-background-color);
-    /*background-image: url(../images/icons/imgheader.jpg);*/
    }
 
    .section-box{
     display: flex;
    }
 
-    .hero .container{
+.hero .container{
     text-align: center;
    }
 
@@ -297,13 +300,13 @@ padding-bottom: 47px;
     margin-top: 30px;
     padding-left: 0; 
 }
-.desc-list-item::before{
+/*.desc-list-item::before{
     display:block;
     content:"";
     width: 70px;
     height: 70px;
 
-}
+}*/
 
 .desc-list-title{
    font-weight: 700;
@@ -324,10 +327,14 @@ padding-bottom: 47px;
    color: var(--text-color);
 }
   
-.desc-icon{
-    width: 70px;
-    height: 70px;
-    fill:#757575;
+.desc-list-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
     background: tomato;
 }
 /*-----------Gallery-------------------*/
@@ -420,8 +427,36 @@ padding-bottom: 47px;
     height: 20px;
 }
    /*------------End Hero----------------*/
-  
-  
+  /*-------------Постоянные клиенты---------------*/
+  .client-title{
+       font-family:inherit;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+padding-bottom: 50px;
+  }
+
+  .client-logo-item{
+width: 106px;
+height:60px;
+  }
+  .client-logo{
+      display: flex;
+      justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+}
+  }
+  .client-list:not(:last child){
+      margin-right: 30px;
+  }
    /*-----------------Footer---------*/
 .footer{
    background: #2F303A;
