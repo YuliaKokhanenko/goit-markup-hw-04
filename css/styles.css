@@ -453,7 +453,7 @@ height:60px;
     border-radius: 4px;
     fill: #afb1b8;
 }
-  }
+
   .client-list:not(:last child){
       margin-right: 30px;
   }
