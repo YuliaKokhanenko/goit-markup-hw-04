@@ -498,6 +498,7 @@ display: flex;
 .client-item{
     display: block;
 }
+
 .client-item:not(:last-child){
  margin-right: 30px;
 }
