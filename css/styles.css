@@ -600,13 +600,14 @@ align-items: center;
 width: 44px;
 height: 44px;
 margin-right: 10px;
-fill: #afb1b8;
+/*fill: #afb1b8;*/
  border-radius: 50%;
+ fill: var(--text-decoration-color);
 }
 
 .footer-social-icon:hover,
 .footer-social-icon:focus{
-    fill: var(--text-decoration-color);
+    /*fill: var(--text-decoration-color);*/
 background: var(--accent-color);
 }
 
