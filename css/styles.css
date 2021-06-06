@@ -443,6 +443,7 @@ padding-bottom: 47px;
 .social-list-link:hover,
 .social-list-link:focus{
     background: var(--accent-color);
+    fill: var(--text-decoration-color);
 }
 
 /*.social-list-item{
@@ -585,9 +586,7 @@ text-transform: uppercase;
    /* background: rgba(255, 255, 255, 0.1);*/
     /*fill: var( --text-decoration-color);*/
 }
-/*.footer-social-item{
-    border-radius: 50%;
-}*/
+
 
 .footer-social-item:not(:last-child){
 margin-right: 10px;
