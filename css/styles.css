@@ -440,8 +440,8 @@ padding-bottom: 47px;
     width: 20px;
     height: 20px;
 }
-.social-list-link:hover,
-.social-list-link:focus{
+.social-list-item:hover,
+.social-list-item:focus{
     background: var(--accent-color);
 }
 
