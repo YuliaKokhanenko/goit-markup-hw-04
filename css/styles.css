@@ -433,7 +433,7 @@ padding-bottom: 47px;
     align-items: center;
     display: flex;
 }
-.social-list:not(:last-child){
+.social-list-item:not(:last-child){
     margin-right: 10px;
 }
 .social-list-icon{
