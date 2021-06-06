@@ -430,22 +430,20 @@ padding-bottom: 47px;
     padding: 30px;
 }
 .social-list{
-    align-item: center;
+    align-items: center;
     display: flex;
-    /*justify-content: space-between;*/
 }
-.social-list:not(:last child){
+.social-list:not(:last-child){
     margin-right: 10px;
 }
 .social-list-icon{
     width: 20px;
     height: 20px;
-    fill: #afb1b8;
 }
 
-.social-list-item{
+/*.social-list-item{
 border-radius: 50%;
-}
+}*/
 .social-list-link{
 display: flex;
 justify-content: center;
@@ -453,11 +451,13 @@ align-items: center;
 width: 44px;
 height: 44px;
 background: transparent;
+ fill: #afb1b8;
+ border-radius: 50%;
 }
    /*------------End Hero----------------*/
   /*-------------Постоянные клиенты---------------*/
  .client-section{
-     background-color: var(--text-decoration-color);
+    background-color: var(--text-decoration-color);
  }
  
   .client-title{
@@ -477,7 +477,7 @@ height: 60px;
 }
 
 .client-list{
-    display: flex;
+display: flex;
 }
 
 .client-logo{
@@ -494,7 +494,7 @@ height: 60px;
 .client-item{
     display: block;
 }
-.client-item:not(:last child){
+.client-item:not(:last-child){
  margin-right: 30px;
   }
    /*-----------------Footer---------*/
