@@ -435,10 +435,17 @@ padding-bottom: 47px;
     display: flex;
     /*justify-content: space-between;*/
 }
+.social-list:not(:last child){
+    margin-right: 10px;
+}
 .social-list-icon{
     width: 20px;
     height: 20px;
     fill: #afb1b8;
+}
+
+.social-list-item{
+border-radius: 50%;
 }
 .social-list-link{
 display: flex;
@@ -447,7 +454,7 @@ align-items: center;
 width: 44px;
 height: 44px;
 background: transparent;
-border-radius: 50%;
+fill:#afb1b8;
 }
    /*------------End Hero----------------*/
   /*-------------Постоянные клиенты---------------*/
