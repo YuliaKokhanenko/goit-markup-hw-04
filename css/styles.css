@@ -473,8 +473,8 @@ height: 60px;
   }
 
   .client-logo{
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     width: 170px;
     height: 92px;
@@ -483,8 +483,8 @@ height: 60px;
     fill: #afb1b8;
 }
 
-  .client-item:not(:last child){
-      margin-right: 30px;
+.client-item:not(:last child){
+ margin-right: 30px;
   }
    /*-----------------Footer---------*/
 .footer{
@@ -520,7 +520,7 @@ height: 60px;
 .address-item{
     margin-bottom: 9px;
 }
-.address-item:last-child{
+.address-item:not(:last-child){
     margin-bottom: 0;
 }
 
