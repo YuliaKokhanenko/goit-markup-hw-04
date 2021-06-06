@@ -490,11 +490,15 @@ display: flex;
     border-radius: 4px;
     fill: #afb1b8;
 }
-
+.client-logo:hover,
+.client-logo:focus{
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+}
 .client-item{
     display: block;
 }
-.client-item:not(:last-child){
+.client-list:not(:last-child){
  margin-right: 30px;
   }
    /*-----------------Footer---------*/
@@ -502,6 +506,7 @@ display: flex;
    background: #2F303A;
    padding-top: 60px;
    padding-bottom: 60px;
+   align-items: baseline;
  }
 
 .logo-link-footer{
@@ -569,14 +574,16 @@ text-transform: uppercase;
 }
 
 .footer-social-list{
-    display: flex;
     /*justify-content: center;*/
     align-items: center;
     margin-left: 73px;
-    fill: var( --text-decoration-color);
+    /*fill: var( --text-decoration-color);*/
+}
+.footer-social-item{
+    border-radius: 50%;
 }
 
-.footer-social-item:not(:last child){
+.footer-social-item:not(:last-child){
     margin-right: 10px;
 }
 
@@ -587,15 +594,14 @@ align-items: center;
 width: 44px;
 height: 44px;
 background: rgba(255, 255, 255, 0.1);
-border-radius: 50%;
 margin-right: 10px;
-fill: #afb1b8;
+fill: #ffffff;
 }
 
 .footer-social-item-icon{
     width: 20px;
     height: 20px;
-    /*fill: #ffffff;*/
+    
 }
    /*==================Footer=================*/
    
