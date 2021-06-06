@@ -596,12 +596,13 @@ width: 44px;
 height: 44px;
 background: rgba(255, 255, 255, 0.1);
 margin-right: 10px;
-fill: #ffffff;
+fill: #afb1b8;
  border-radius: 50%;
 }
+
 .footer-social-icon:hover,
 .footer-social-icon:focus{
-    fill: #ffffff;
+fill: #ffffff;
 }
 .footer-social-item-icon{
     width: 20px;
